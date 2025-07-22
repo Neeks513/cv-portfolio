@@ -101,10 +101,6 @@ textarea:focus {
     position: relative;
 }
 
-.nav-left {
-    flex: 1;
-}
-
 .nav-links {
     display: flex;
     list-style: none;
@@ -113,11 +109,9 @@ textarea:focus {
     padding: 0;
 }
 
-.nav-right {
+.nav-logo {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    margin-left: 2rem;
 }
 
 .logo img {
@@ -130,6 +124,12 @@ textarea:focus {
     height: 45px;
     width: auto;
     transition: transform 0.3s ease;
+    z-index: 10;
+}
+
+.nav-right .logo-img {
+    height: 45px;
+    width: auto;
 }
 
 .logo img:hover,
