@@ -94,36 +94,30 @@ textarea:focus {
 }
 
 .nav {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     position: relative;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.8rem;
-}
-
-.nav-left,
-.nav-right {
-    display: flex;
-    align-items: center;
-}
-
-.nav-right {
-    justify-content: flex-end;
+.nav-left {
+    flex: 1;
 }
 
 .nav-links {
-    position: absolute;
-    right: 6rem;
     display: flex;
     list-style: none;
     gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 2rem;
 }
 
 .logo img {
