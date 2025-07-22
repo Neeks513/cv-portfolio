@@ -970,7 +970,15 @@ textarea:focus {
     }
     
     .timeline::before {
-        display: none;
+        content: '';
+        position: absolute;
+        left: 75px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: var(--gradient-secondary);
+        transform: none;
+        border-radius: 1px;
     }
     
     .timeline-item {
@@ -983,7 +991,17 @@ textarea:focus {
     }
     
     .timeline-item::before {
-        display: none;
+        content: '';
+        position: absolute;
+        left: 67px;
+        top: 1.5rem;
+        width: 16px;
+        height: 16px;
+        background: var(--white);
+        border: 3px solid var(--primary-color);
+        border-radius: 50%;
+        z-index: 2;
+        transform: none;
     }
     
     .timeline-item:nth-child(odd),
@@ -1087,7 +1105,15 @@ textarea:focus {
     }
     
     .timeline::before {
-        display: none;
+        content: '';
+        position: absolute;
+        left: 50px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: var(--gradient-secondary);
+        transform: none;
+        border-radius: 1px;
     }
     
     .timeline-item {
@@ -1100,7 +1126,17 @@ textarea:focus {
     }
     
     .timeline-item::before {
-        display: none;
+        content: '';
+        position: absolute;
+        left: 42px;
+        top: 1.2rem;
+        width: 16px;
+        height: 16px;
+        background: var(--white);
+        border: 3px solid var(--primary-color);
+        border-radius: 50%;
+        z-index: 2;
+        transform: none;
     }
     
     .timeline-item:nth-child(odd),
@@ -1219,11 +1255,29 @@ textarea:focus {
     }
     
     .timeline-item::before {
-        display: none;
+        content: '';
+        position: absolute;
+        left: 37px;
+        top: 1rem;
+        width: 16px;
+        height: 16px;
+        background: var(--white);
+        border: 3px solid var(--primary-color);
+        border-radius: 50%;
+        z-index: 2;
+        transform: none;
     }
     
     .timeline::before {
-        display: none;
+        content: '';
+        position: absolute;
+        left: 45px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: var(--gradient-secondary);
+        transform: none;
+        border-radius: 1px;
     }
     
     .timeline-item:nth-child(odd),
