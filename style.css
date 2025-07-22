@@ -758,6 +758,20 @@ textarea:focus {
     font-size: 1.1rem;
 }
 
+.contact-item a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: var(--primary-color);
+}
+
+.contact-item a span {
+    display: inline;
+}
+
 .contact-form {
     background: var(--gray-50);
     padding: 2rem;
