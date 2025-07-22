@@ -112,7 +112,14 @@ textarea:focus {
     transition: transform 0.3s ease;
 }
 
-.logo img:hover {
+.logo-img {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover,
+.logo-img:hover {
     transform: scale(1.05);
 }
 
