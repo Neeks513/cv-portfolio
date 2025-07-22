@@ -973,12 +973,14 @@ textarea:focus {
         align-items: flex-start;
         padding-left: 0;
         margin-left: 0;
+        margin-bottom: 2rem;
     }
     
     .timeline-item::before {
         display: none;
     }
     
+    .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
         flex-direction: column;
         align-items: flex-start;
@@ -1084,10 +1086,19 @@ textarea:focus {
     .timeline-item {
         padding-left: 0;
         margin-left: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 1.5rem;
     }
     
     .timeline-item::before {
         display: none;
+    }
+    
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        flex-direction: column;
+        align-items: flex-start;
     }
     
     .timeline-date {
@@ -1192,6 +1203,8 @@ textarea:focus {
         padding-left: 0;
         margin-bottom: 2rem;
         margin-left: 0;
+        flex-direction: column;
+        align-items: flex-start;
     }
     
     .timeline-item::before {
@@ -1200,6 +1213,12 @@ textarea:focus {
     
     .timeline::before {
         display: none;
+    }
+    
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        flex-direction: column;
+        align-items: flex-start;
     }
     
     .timeline-date {
