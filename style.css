@@ -965,19 +965,18 @@ textarea:focus {
     }
     
     .timeline::before {
-        left: 20px;
+        display: none;
     }
     
     .timeline-item {
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 50px;
+        padding-left: 0;
         margin-left: 0;
     }
     
     .timeline-item::before {
-        left: 20px;
-        transform: translateY(-50%);
+        display: none;
     }
     
     .timeline-item:nth-child(even) {
@@ -988,11 +987,13 @@ textarea:focus {
     .timeline-date {
         margin-bottom: 1rem;
         min-width: 120px;
+        margin-left: 0;
     }
     
     .timeline-content {
         margin: 0;
         width: 100%;
+        margin-left: 0;
     }
 }
 
@@ -1077,17 +1078,16 @@ textarea:focus {
     }
     
     .timeline::before {
-        left: 15px;
+        display: none;
     }
     
     .timeline-item {
-        padding-left: 40px;
+        padding-left: 0;
         margin-left: 0;
     }
     
     .timeline-item::before {
-        left: 15px;
-        transform: translateY(-50%);
+        display: none;
     }
     
     .timeline-date {
@@ -1189,18 +1189,17 @@ textarea:focus {
     }
     
     .timeline-item {
-        padding-left: 35px;
+        padding-left: 0;
         margin-bottom: 2rem;
         margin-left: 0;
     }
     
     .timeline-item::before {
-        left: 12px;
-        transform: translateY(-50%);
+        display: none;
     }
     
     .timeline::before {
-        left: 12px;
+        display: none;
     }
     
     .timeline-date {
