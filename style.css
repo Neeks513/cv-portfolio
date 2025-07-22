@@ -587,7 +587,7 @@ textarea:focus {
     margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .timeline-item::before {
@@ -605,11 +605,11 @@ textarea:focus {
 }
 
 .timeline-item:nth-child(odd) {
-    align-items: center;
+    align-items: flex-start;
 }
 
 .timeline-item:nth-child(even) {
-    align-items: center;
+    align-items: flex-start;
 }
 
 .timeline-date {
@@ -619,11 +619,12 @@ textarea:focus {
     border-radius: 20px;
     font-weight: 600;
     min-width: 150px;
-    text-align: center;
+    text-align: left;
     position: relative;
     z-index: 2;
     box-shadow: var(--shadow-medium);
     margin-bottom: 1rem;
+    align-self: flex-start;
 }
 
 .timeline-content {
@@ -637,6 +638,7 @@ textarea:focus {
     transition: all 0.3s ease;
     max-width: 500px;
     width: 100%;
+    align-self: flex-start;
 }
 
 .timeline-content:hover {
@@ -973,7 +975,7 @@ textarea:focus {
     
     .timeline-item {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         padding-left: 0;
         margin-left: 0;
         margin-bottom: 2rem;
@@ -987,20 +989,20 @@ textarea:focus {
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
     
     .timeline-date {
         margin-bottom: 1rem;
         min-width: 120px;
         margin-left: 0;
-        align-self: center;
+        align-self: flex-start;
     }
     
     .timeline-content {
         margin: 0;
         margin-left: 0;
-        align-self: center;
+        align-self: flex-start;
     }
 }
 
@@ -1092,7 +1094,7 @@ textarea:focus {
         padding-left: 0;
         margin-left: 0;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         margin-bottom: 1.5rem;
         width: 100%;
     }
@@ -1104,20 +1106,20 @@ textarea:focus {
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
     
     .timeline-date {
         font-size: 0.9rem;
         min-width: 100px;
         padding: 0.4rem 0.8rem;
-        align-self: center;
+        align-self: flex-start;
     }
     
     .timeline-content {
         padding: 1.5rem;
         margin-left: 0;
-        align-self: center;
+        align-self: flex-start;
     }
     
     .contact-content {
@@ -1212,7 +1214,7 @@ textarea:focus {
         margin-bottom: 2rem;
         margin-left: 0;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
     }
     
@@ -1227,19 +1229,19 @@ textarea:focus {
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
     
     .timeline-date {
         font-size: 0.8rem;
         min-width: 90px;
         padding: 0.3rem 0.6rem;
-        align-self: center;
+        align-self: flex-start;
     }
     
     .timeline-content {
         padding: 1.2rem;
-        align-self: center;
+        align-self: flex-start;
     }
     
     .timeline-content h3 {
