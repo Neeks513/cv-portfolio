@@ -206,6 +206,9 @@ textarea:focus {
     align-items: center;
     position: relative;
     z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .hero-title {
@@ -262,6 +265,13 @@ textarea:focus {
 }
 
 .profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
